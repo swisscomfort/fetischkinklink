@@ -2,6 +2,7 @@ node_modules/
 dist/
 build/
 *.log
+logs/
 .env
 .env.local
 .env.*.local
@@ -20,3 +21,7 @@ coverage/
 
 # Encore secrets (local only)
 .secrets/local
+encore.gen.go
+encore.gen.cue
+/.encore
+/encore.gen
