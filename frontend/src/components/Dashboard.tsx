@@ -7,9 +7,10 @@ import { MatchCard } from './MatchCard';
 
 interface DashboardProps {
   userId: string;
+  onNavigateToCreator?: () => void;
 }
 
-export const Dashboard: React.FC<DashboardProps> = ({ userId }) => {
+export const Dashboard: React.FC<DashboardProps> = ({ userId, onNavigateToCreator }) => {
   const [myCharacters, setMyCharacters] = useState<Character8D[]>([]);
   const [selectedCharacter, setSelectedCharacter] = useState<Character8D | null>(null);
   const [matches, setMatches] = useState<any[]>([]);
@@ -183,13 +184,31 @@ export const Dashboard: React.FC<DashboardProps> = ({ userId }) => {
             </div>
           ) : myCharacters.length === 0 ? (
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="text-center py-12 bg-purple-900/20 rounded-2xl border border-purple-500/20"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="text-center py-16 bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-3xl border-2 border-purple-500/30 backdrop-blur-sm"
             >
-              <Users className="w-16 h-16 text-purple-400 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-white mb-2">Keine Characters gefunden</h3>
-              <p className="text-purple-300">Erstelle deinen ersten Character im Character Creator!</p>
+              <div className="mb-6">
+                <div className="inline-flex items-center justify-center w-24 h-24 bg-purple-500/20 rounded-full mb-4">
+                  <Users className="w-12 h-12 text-purple-400" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-3">Keine Characters gefunden</h3>
+              <p className="text-purple-300 mb-6 max-w-md mx-auto">
+                Erstelle deinen ersten Character im Character Creator!<br />
+                <span className="text-sm text-purple-400 mt-2 inline-block">
+                  🎭 Wähle deine Fetische, definiere deinen Lifestyle und lass die KI deinen perfekten Avatar erstellen.
+                </span>
+              </p>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => onNavigateToCreator && onNavigateToCreator()}
+                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-xl hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg hover:shadow-xl"
+              >
+                <Sparkles className="w-5 h-5 inline mr-2" />
+                Character Creator öffnen
+              </motion.button>
             </motion.div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

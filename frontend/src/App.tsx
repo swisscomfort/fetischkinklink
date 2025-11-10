@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles, LayoutDashboard, UserPlus } from 'lucide-react';
+import { v4 as uuidv4 } from 'uuid';
 import { CharacterCreator } from './components/CharacterCreator';
 import { Dashboard } from './components/Dashboard';
 import './styles/index.css';
@@ -8,7 +9,14 @@ import './styles/index.css';
 function App() {
   const [activeView, setActiveView] = useState<'dashboard' | 'creator'>('dashboard');
   // In einer echten App würde dies von einem Auth-System kommen
-  const [userId] = useState('demo-user-' + Math.random().toString(36).substr(2, 9));
+  // Verwende UUID v4 für Datenbank-Kompatibilität
+  const [userId] = useState(() => {
+    const stored = localStorage.getItem('spiegelmatch_user_id');
+    if (stored) return stored;
+    const newId = uuidv4();
+    localStorage.setItem('spiegelmatch_user_id', newId);
+    return newId;
+  });
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
@@ -70,7 +78,7 @@ function App() {
           transition={{ duration: 0.3 }}
         >
           {activeView === 'dashboard' ? (
-            <Dashboard userId={userId} />
+            <Dashboard userId={userId} onNavigateToCreator={() => setActiveView('creator')} />
           ) : (
             <CharacterCreator
               userId={userId}
