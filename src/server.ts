@@ -54,6 +54,35 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 // ============================================================================
 
 /**
+ * GET /
+ * Root endpoint - API Info
+ */
+app.get('/', (req: Request, res: Response) => {
+  res.json({
+    name: 'SpiegelMatch API',
+    version: '1.0.0',
+    status: 'running',
+    endpoints: {
+      character: {
+        generate: 'POST /api/character/generate',
+        get: 'GET /api/character/:userId/:username',
+        list: 'GET /api/characters/:userId'
+      },
+      matching: {
+        calculate: 'POST /api/match/calculate',
+        find: 'POST /api/matches/:userId/find',
+        list: 'GET /api/matches/:userId'
+      },
+      data: {
+        taxonomy: 'GET /api/taxonomy',
+        archetypes: 'GET /api/archetypes',
+        health: 'GET /api/health'
+      }
+    }
+  });
+});
+
+/**
  * POST /api/character/generate
  * Generiert ein 8D Character Profil aus Tags und Lifestyle Daten
  */

@@ -63,10 +63,12 @@ class SupabaseService {
     const supabaseKey = process.env.SUPABASE_ANON_KEY;
 
     if (!supabaseUrl || !supabaseKey) {
-      throw new Error('SUPABASE_URL and SUPABASE_ANON_KEY müssen in .env gesetzt sein');
+      console.warn('⚠️  SUPABASE_URL und SUPABASE_ANON_KEY nicht gesetzt - läuft im DEMO MODUS ohne Datenbank-Persistenz');
+      // Demo-Modus: Erstelle einen Dummy-Client
+      this.client = null as any;
+    } else {
+      this.client = createClient<Database>(supabaseUrl, supabaseKey);
     }
-
-    this.client = createClient<Database>(supabaseUrl, supabaseKey);
   }
 
   // ============================================================================
@@ -78,6 +80,12 @@ class SupabaseService {
    */
   async saveCharacter(character: Character8D): Promise<{ success: boolean; error?: string }> {
     try {
+      // Demo-Modus: Simuliere erfolgreiche Speicherung
+      if (!this.client) {
+        console.log(`✓ Character [DEMO] gespeichert: ${character.username}`);
+        return { success: true };
+      }
+
       const { data, error } = await this.client
         .from('characters')
         .upsert({
