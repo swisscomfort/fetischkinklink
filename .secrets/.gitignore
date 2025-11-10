@@ -1,0 +1,2 @@
+# Add .secrets to gitignore
+.secrets/local
