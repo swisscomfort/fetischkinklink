@@ -1,0 +1,5 @@
+# Encore Secrets Configuration (Local Development)
+# Replace with your actual values
+
+SupabaseURL=https://your-project.supabase.co
+SupabaseAnonKey=your_anon_key_here

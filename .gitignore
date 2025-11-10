@@ -17,3 +17,6 @@ build/
 out/
 coverage/
 .nyc_output/
+
+# Encore secrets (local only)
+.secrets/local
