@@ -284,12 +284,28 @@ app.get('/api/archetypes', (req: Request, res: Response) => {
  * GET /api/health
  * Health Check
  */
-app.get('/api/health', (req: Request, res: Response) => {
-  res.json({
-    status: 'ok',
-    timestamp: new Date().toISOString(),
-    version: '1.0.0'
-  });
+app.get('/api/health', async (req: Request, res: Response) => {
+  try {
+    // Test Supabase Connection
+    const dbConnected = await supabaseService.testConnection();
+    
+    res.json({
+      status: dbConnected ? 'healthy' : 'degraded',
+      timestamp: new Date().toISOString(),
+      version: '1.0.0',
+      database: {
+        connected: dbConnected,
+        type: 'supabase-postgresql'
+      },
+      environment: process.env.NODE_ENV || 'development'
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'unhealthy',
+      error: error instanceof Error ? error.message : 'Unknown error',
+      timestamp: new Date().toISOString()
+    });
+  }
 });
 
 /**

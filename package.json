@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "tsx watch --env-file=.env src/server.ts",
     "dev:frontend": "vite",
     "dev:all": "concurrently \"npm run dev\" \"npm run dev:frontend\"",
     "build": "tsc && vite build",
@@ -23,6 +23,7 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,json}\" \"frontend/src/**/*.{ts,tsx,json}\"",
     "type-check": "tsc --noEmit",
     "demo": "tsx scripts/demo.ts",
+    "test:integration": "tsx scripts/test-integration.ts",
     "clean": "rm -rf dist node_modules frontend/dist"
   },
   "dependencies": {
@@ -45,6 +46,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
     "@types/compression": "^1.8.1",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
