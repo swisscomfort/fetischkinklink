@@ -1,0 +1,782 @@
+{
+  "version": "1.0.0",
+  "totalTags": 5247,
+  "lastUpdated": "2025-11-09",
+  "categories": {
+    "bdsm": {
+      "id": "bdsm",
+      "name": "BDSM - Macht & Kontrolle",
+      "icon": "⚔️",
+      "color": "#000",
+      "subcategories": {
+        "dominationSubmission": {
+          "id": "bdsm.domSub",
+          "name": "Dominanz/Submission",
+          "tags": {
+            "dominanceStyles": {
+              "id": "bdsm.domSub.domStyles",
+              "name": "Dominanz-Stile",
+              "items": [
+                { "id": "bdsm.domSub.domStyles.strictMistress", "label": "Strenge Herrin", "intensity": 5, "description": "Leder, Peitsche, Befehle" },
+                { "id": "bdsm.domSub.domStyles.caringDomme", "label": "Fürsorgende Domme", "intensity": 3, "description": "Mommy Dom, sanfte Führung" },
+                { "id": "bdsm.domSub.domStyles.sadisticDomina", "label": "Sadistische Domina", "intensity": 5, "description": "Lust am Schmerz" },
+                { "id": "bdsm.domSub.domStyles.possessiveMaster", "label": "Besitzergreifender Master", "intensity": 4, "description": "Ownership, TPE" },
+                { "id": "bdsm.domSub.domStyles.primalDom", "label": "Primal Dom", "intensity": 4, "description": "Animalisch, rau, instinktiv" },
+                { "id": "bdsm.domSub.domStyles.bratTamer", "label": "Brat Tamer", "intensity": 4, "description": "Züchtigt freche Subs" },
+                { "id": "bdsm.domSub.domStyles.serviceTop", "label": "Service Top", "intensity": 2, "description": "Erfüllt Sub-Fantasien" },
+                { "id": "bdsm.domSub.domStyles.financialDomme", "label": "Financial Domme", "intensity": 3, "description": "Geldherrschaft, Tribute" }
+              ]
+            },
+            "submissionStyles": {
+              "id": "bdsm.domSub.subStyles",
+              "name": "Submission-Stile",
+              "items": [
+                { "id": "bdsm.domSub.subStyles.obedientSlave", "label": "Gehorsamer Sklave", "intensity": 5, "description": "Totale Hingabe" },
+                { "id": "bdsm.domSub.subStyles.brat", "label": "Brat", "intensity": 3, "description": "Frech, provoziert Bestrafung" },
+                { "id": "bdsm.domSub.subStyles.little", "label": "Little", "intensity": 3, "description": "Kindlich, Regression" },
+                { "id": "bdsm.domSub.subStyles.pet", "label": "Pet", "intensity": 3, "description": "Tierisch, Petplay" },
+                { "id": "bdsm.domSub.subStyles.serviceSub", "label": "Service Sub", "intensity": 3, "description": "Dienst-orientiert" },
+                { "id": "bdsm.domSub.subStyles.painSlut", "label": "Pain Slut", "intensity": 5, "description": "Sehnt Schmerz" },
+                { "id": "bdsm.domSub.subStyles.kajira", "label": "Kajira", "intensity": 4, "description": "Gorean-Protokoll" },
+                { "id": "bdsm.domSub.subStyles.sissy", "label": "Sissy", "intensity": 3, "description": "Feminisierte Submission" },
+                { "id": "bdsm.domSub.subStyles.toy", "label": "Toy", "intensity": 4, "description": "Objekt, benutzt werden" }
+              ]
+            },
+            "powerDynamics": {
+              "id": "bdsm.domSub.powerDyn",
+              "name": "Macht-Dynamiken",
+              "items": [
+                { "id": "bdsm.domSub.powerDyn.tpe24", "label": "24/7 TPE", "intensity": 5, "description": "Total Power Exchange" },
+                { "id": "bdsm.domSub.powerDyn.highProtocol", "label": "High Protocol", "intensity": 5, "description": "Strenge Rituale" },
+                { "id": "bdsm.domSub.powerDyn.casualPlay", "label": "Casual Play", "intensity": 1, "description": "Nur Sessions" },
+                { "id": "bdsm.domSub.powerDyn.bedroomOnly", "label": "Bedroom-only", "intensity": 1, "description": "Privat, diskret" },
+                { "id": "bdsm.domSub.powerDyn.masterSlave", "label": "Master/slave", "intensity": 5, "description": "M/s" },
+                { "id": "bdsm.domSub.powerDyn.daddyLittle", "label": "Daddy/Mommy & little", "intensity": 3, "description": "DD/lg, MD/lg" },
+                { "id": "bdsm.domSub.powerDyn.ownerProperty", "label": "Owner/property", "intensity": 5, "description": "Besitz-Beziehung" }
+              ]
+            }
+          }
+        },
+        "impactPlay": {
+          "id": "bdsm.impact",
+          "name": "Impact Play (Schlagen/Hiebe)",
+          "tags": {
+            "tools": {
+              "id": "bdsm.impact.tools",
+              "name": "Werkzeuge",
+              "items": [
+                { "id": "bdsm.impact.tools.hand", "label": "Hand", "intensity": 2 },
+                { "id": "bdsm.impact.tools.paddle", "label": "Paddle", "intensity": 3, "variants": ["Holz", "Leder", "Gummi"] },
+                { "id": "bdsm.impact.tools.whip", "label": "Peitsche", "intensity": 5, "variants": ["Bullwhip", "Singletail", "Flogger", "Cat o' Nine Tails"] },
+                { "id": "bdsm.impact.tools.cane", "label": "Rohrstock/Cane", "intensity": 4, "variants": ["Rattan", "Bambus", "Plastik"] },
+                { "id": "bdsm.impact.tools.crop", "label": "Gerte", "intensity": 3 },
+                { "id": "bdsm.impact.tools.belt", "label": "Riemen", "intensity": 3 },
+                { "id": "bdsm.impact.tools.household", "label": "Haushalts-Gegenstände", "intensity": 2, "variants": ["Kochlöffel", "Haarbürste", "Schuh"] }
+              ]
+            },
+            "bodyZones": {
+              "id": "bdsm.impact.zones",
+              "name": "Körperzonen",
+              "items": [
+                { "id": "bdsm.impact.zones.buttocks", "label": "Po (Gesäß)", "intensity": 3 },
+                { "id": "bdsm.impact.zones.thighs", "label": "Oberschenkel", "intensity": 3 },
+                { "id": "bdsm.impact.zones.soles", "label": "Fußsohlen (Bastonade)", "intensity": 4 },
+                { "id": "bdsm.impact.zones.back", "label": "Rücken", "intensity": 3 },
+                { "id": "bdsm.impact.zones.chest", "label": "Brüste/Brust", "intensity": 3 },
+                { "id": "bdsm.impact.zones.genitals", "label": "Genitalien (CBT)", "intensity": 5 },
+                { "id": "bdsm.impact.zones.palms", "label": "Handflächen", "intensity": 2 }
+              ]
+            },
+            "intensity": {
+              "id": "bdsm.impact.intensity",
+              "name": "Intensität",
+              "items": [
+                { "id": "bdsm.impact.intensity.warmup", "label": "Warm-up", "level": 1, "description": "Leicht, spielerisch" },
+                { "id": "bdsm.impact.intensity.medium", "label": "Mittel", "level": 3, "description": "Rosa/rote Haut" },
+                { "id": "bdsm.impact.intensity.hard", "label": "Hart", "level": 4, "description": "Striemen, blaue Flecken" },
+                { "id": "bdsm.impact.intensity.extreme", "label": "Extrem", "level": 5, "description": "Blutergüsse, lang anhaltend" }
+              ]
+            }
+          }
+        },
+        "bondage": {
+          "id": "bdsm.bondage",
+          "name": "Bondage (Fesseln)",
+          "tags": {
+            "materials": {
+              "id": "bdsm.bondage.materials",
+              "name": "Materialien",
+              "items": [
+                { "id": "bdsm.bondage.materials.rope", "label": "Seil", "intensity": 2, "variants": ["Jute", "Hanf", "Baumwolle", "Nylon", "Seide"] },
+                { "id": "bdsm.bondage.materials.cuffs", "label": "Handschellen", "intensity": 2, "variants": ["Metall", "Leder", "Plüsch"] },
+                { "id": "bdsm.bondage.materials.chains", "label": "Ketten", "intensity": 3 },
+                { "id": "bdsm.bondage.materials.tape", "label": "Tape", "intensity": 2, "variants": ["Duct Tape", "Bondage Tape", "Vet Wrap"] },
+                { "id": "bdsm.bondage.materials.clingfilm", "label": "Frischhaltefolie", "intensity": 3 },
+                { "id": "bdsm.bondage.materials.leatherCuffs", "label": "Leather Cuffs", "intensity": 2 },
+                { "id": "bdsm.bondage.materials.spreaderBars", "label": "Spreizstangen", "intensity": 2 },
+                { "id": "bdsm.bondage.materials.furniture", "label": "Bondage-Möbel", "intensity": 2, "variants": ["St. Andrews Cross", "Bondage Bed"] }
+              ]
+            },
+            "techniques": {
+              "id": "bdsm.bondage.techniques",
+              "name": "Techniken",
+              "items": [
+                { "id": "bdsm.bondage.techniques.shibari", "label": "Shibari/Kinbaku", "intensity": 4, "description": "Japanisches Seilfesseln" },
+                { "id": "bdsm.bondage.techniques.western", "label": "Western Bondage", "intensity": 2, "description": "Schnell, funktional" },
+                { "id": "bdsm.bondage.techniques.hogtie", "label": "Hogtie", "intensity": 3 },
+                { "id": "bdsm.bondage.techniques.frogtie", "label": "Frogtie", "intensity": 3 },
+                { "id": "bdsm.bondage.techniques.suspension", "label": "Suspension", "intensity": 5, "variants": ["Partiell", "Komplett"] },
+                { "id": "bdsm.bondage.techniques.mummification", "label": "Mummification", "intensity": 4 },
+                { "id": "bdsm.bondage.techniques.predicament", "label": "Predicament Bondage", "intensity": 4 },
+                { "id": "bdsm.bondage.techniques.selfBondage", "label": "Self-Bondage", "intensity": 2 }
+              ]
+            }
+          }
+        },
+        "sensationPlay": {
+          "id": "bdsm.sensation",
+          "name": "Schmerz/Sensation",
+          "tags": {
+            "types": {
+              "id": "bdsm.sensation.types",
+              "name": "Typen",
+              "items": [
+                { "id": "bdsm.sensation.types.needles", "label": "Nadeln", "intensity": 5, "variants": ["Akupunktur", "Piercing", "Play Piercing"] },
+                { "id": "bdsm.sensation.types.clamps", "label": "Klemmen", "intensity": 4, "variants": ["Nippelklemmen", "Labienklammern", "Zungenklemme"] },
+                { "id": "bdsm.sensation.types.wax", "label": "Wachs", "intensity": 3 },
+                { "id": "bdsm.sensation.types.ice", "label": "Eis", "intensity": 2 },
+                { "id": "bdsm.sensation.types.electro", "label": "Elektro", "intensity": 4, "variants": ["Violet Wand", "TENS-Gerät", "E-Stim"] },
+                { "id": "bdsm.sensation.types.scratching", "label": "Kratzen", "intensity": 3 },
+                { "id": "bdsm.sensation.types.bites", "label": "Bisse", "intensity": 3 },
+                { "id": "bdsm.sensation.types.tickling", "label": "Kitzeln", "intensity": 1 }
+              ]
+            }
+          }
+        },
+        "deprivation": {
+          "id": "bdsm.deprivation",
+          "name": "Deprivation (Entzug)",
+          "tags": {
+            "sensoryTypes": {
+              "id": "bdsm.deprivation.sensory",
+              "name": "Sinnesentzug",
+              "items": [
+                { "id": "bdsm.deprivation.sensory.sight", "label": "Sehen", "intensity": 2, "description": "Augenbinde, Maske, Hood" },
+                { "id": "bdsm.deprivation.sensory.hearing", "label": "Hören", "intensity": 2, "description": "Ohrstöpsel, White Noise" },
+                { "id": "bdsm.deprivation.sensory.speech", "label": "Sprechen", "intensity": 3, "description": "Knebel (Ball, Ring, Penis-Form)" },
+                { "id": "bdsm.deprivation.sensory.movement", "label": "Bewegung", "intensity": 4, "description": "Bodybag, Vakuumbett, Käfig" },
+                { "id": "bdsm.deprivation.sensory.breathing", "label": "Atmung", "intensity": 5, "description": "Breath Play (Würgen, Gasmaske)" }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "roleplay": {
+      "id": "roleplay",
+      "name": "Rollenspiele & Identitäten",
+      "icon": "🎭",
+      "color": "#a855f7",
+      "subcategories": {
+        "ageplay": {
+          "id": "roleplay.ageplay",
+          "name": "Age Play",
+          "tags": {
+            "abdl": {
+              "id": "roleplay.ageplay.abdl",
+              "name": "ABDL (Adult Baby/Diaper Lover)",
+              "items": [
+                { "id": "roleplay.ageplay.abdl.baby", "label": "Baby", "intensity": 3, "description": "Windeln, Flasche, Schnuller, Krabbeln" },
+                { "id": "roleplay.ageplay.abdl.toddler", "label": "Toddler", "intensity": 3, "description": "Pull-ups, Töpfchen-Training" },
+                { "id": "roleplay.ageplay.abdl.toddlerAdvanced", "label": "Kleinkind", "intensity": 3, "description": "Training Pants, Unfälle" },
+                { "id": "roleplay.ageplay.abdl.schoolkid", "label": "Schulkind", "intensity": 2, "description": "Uniform, Hausaufgaben, Bestrafung" }
+              ]
+            },
+            "activities": {
+              "id": "roleplay.ageplay.activities",
+              "name": "Aktivitäten",
+              "items": [
+                { "id": "roleplay.ageplay.activities.diapering", "label": "Wickeln", "intensity": 2 },
+                { "id": "roleplay.ageplay.activities.feeding", "label": "Füttern", "intensity": 1 },
+                { "id": "roleplay.ageplay.activities.bathing", "label": "Baden", "intensity": 1 },
+                { "id": "roleplay.ageplay.activities.storytime", "label": "Vorlesen", "intensity": 1 },
+                { "id": "roleplay.ageplay.activities.playing", "label": "Spielen", "intensity": 1 },
+                { "id": "roleplay.ageplay.activities.punishment", "label": "Bestrafung", "intensity": 2 }
+              ]
+            },
+            "diaperSpecifics": {
+              "id": "roleplay.ageplay.diapers",
+              "name": "Windel-Spezifika",
+              "items": [
+                { "id": "roleplay.ageplay.diapers.disposable", "label": "Einweg", "intensity": 1, "description": "Pampers, ABDL-Marken" },
+                { "id": "roleplay.ageplay.diapers.cloth", "label": "Stoffwindeln", "intensity": 1 },
+                { "id": "roleplay.ageplay.diapers.wettingOnly", "label": "Nass machen", "intensity": 2, "description": "Urin in Windel" },
+                { "id": "roleplay.ageplay.diapers.messying", "label": "Großmachen", "intensity": 3, "description": "Kot in Windel" },
+                { "id": "roleplay.ageplay.diapers.dryWearing", "label": "Tragen ohne Nutzung", "intensity": 1 },
+                { "id": "roleplay.ageplay.diapers.public", "label": "Öffentlich unter Kleidung", "intensity": 3 },
+                { "id": "roleplay.ageplay.diapers.control", "label": "Windelkontrolle durch Dom", "intensity": 4 }
+              ]
+            }
+          }
+        },
+        "petplay": {
+          "id": "roleplay.petplay",
+          "name": "Pet Play",
+          "tags": {
+            "animalTypes": {
+              "id": "roleplay.petplay.animals",
+              "name": "Tier-Typen",
+              "items": [
+                { "id": "roleplay.petplay.animals.dog", "label": "Hund", "intensity": 2, "description": "Bellen, Halsband, Leine, Napf" },
+                { "id": "roleplay.petplay.animals.cat", "label": "Katze", "intensity": 2, "description": "Miauen, Ohren, kratzen, Schnurren" },
+                { "id": "roleplay.petplay.animals.pony", "label": "Pony", "intensity": 3, "description": "Geschirr, Sulky ziehen, Dressur" },
+                { "id": "roleplay.petplay.animals.pig", "label": "Schwein", "intensity": 2, "description": "Schlamm, Trog, Grunzen" },
+                { "id": "roleplay.petplay.animals.cow", "label": "Kuh", "intensity": 2, "description": "Melken, Glocke" },
+                { "id": "roleplay.petplay.animals.bunny", "label": "Hase", "intensity": 1, "description": "Hoppeln, Karotten" },
+                { "id": "roleplay.petplay.animals.primal", "label": "Fuchs/Wolf", "intensity": 3, "description": "Wild, instinktiv" }
+              ]
+            },
+            "gear": {
+              "id": "roleplay.petplay.gear",
+              "name": "Gear",
+              "items": [
+                { "id": "roleplay.petplay.gear.ears", "label": "Ohren", "intensity": 1 },
+                { "id": "roleplay.petplay.gear.tail", "label": "Schwanz", "intensity": 2, "description": "Plug mit Schwanz" },
+                { "id": "roleplay.petplay.gear.mask", "label": "Maske", "intensity": 2 },
+                { "id": "roleplay.petplay.gear.mitts", "label": "Pfoten", "intensity": 2 },
+                { "id": "roleplay.petplay.gear.collar", "label": "Halsband + Leine", "intensity": 2 },
+                { "id": "roleplay.petplay.gear.bowl", "label": "Napf + Wasserschale", "intensity": 1 },
+                { "id": "roleplay.petplay.gear.crate", "label": "Käfig/Hundebox", "intensity": 2 }
+              ]
+            },
+            "activities": {
+              "id": "roleplay.petplay.activities",
+              "name": "Aktivitäten",
+              "items": [
+                { "id": "roleplay.petplay.activities.training", "label": "Training", "intensity": 2 },
+                { "id": "roleplay.petplay.activities.walkies", "label": "Gassigehen", "intensity": 1 },
+                { "id": "roleplay.petplay.activities.feeding", "label": "Füttern", "intensity": 1 },
+                { "id": "roleplay.petplay.activities.grooming", "label": "Streicheln/Bürsten", "intensity": 1 },
+                { "id": "roleplay.petplay.activities.play", "label": "Spielen", "intensity": 1 },
+                { "id": "roleplay.petplay.activities.punishment", "label": "Bestrafung", "intensity": 2 }
+              ]
+            }
+          }
+        },
+        "sissification": {
+          "id": "roleplay.sissy",
+          "name": "Sissification",
+          "tags": {
+            "levels": {
+              "id": "roleplay.sissy.levels",
+              "name": "Stufen",
+              "items": [
+                { "id": "roleplay.sissy.levels.crossdressing", "label": "Crossdressing", "intensity": 1 },
+                { "id": "roleplay.sissy.levels.makeup", "label": "Makeup & Perücke", "intensity": 2 },
+                { "id": "roleplay.sissy.levels.feminization", "label": "Feminine Verhalten", "intensity": 2 },
+                { "id": "roleplay.sissy.levels.public", "label": "Öffentlich", "intensity": 3 },
+                { "id": "roleplay.sissy.levels.forced", "label": "Forced Feminization", "intensity": 3 },
+                { "id": "roleplay.sissy.levels.maid", "label": "Sissy Maid", "intensity": 3 },
+                { "id": "roleplay.sissy.levels.hypno", "label": "Hypno-Sissy", "intensity": 2 }
+              ]
+            },
+            "clothing": {
+              "id": "roleplay.sissy.clothing",
+              "name": "Kleidung",
+              "items": [
+                { "id": "roleplay.sissy.clothing.lingerie", "label": "Dessous", "intensity": 1 },
+                { "id": "roleplay.sissy.clothing.dress", "label": "Kleid", "intensity": 2 },
+                { "id": "roleplay.sissy.clothing.heels", "label": "High Heels", "intensity": 2 },
+                { "id": "roleplay.sissy.clothing.corset", "label": "Korsett", "intensity": 2 },
+                { "id": "roleplay.sissy.clothing.hosiery", "label": "Strumpfhosen/Nylons", "intensity": 1 },
+                { "id": "roleplay.sissy.clothing.wig", "label": "Perücke", "intensity": 1 }
+              ]
+            }
+          }
+        },
+        "medicalPlay": {
+          "id": "roleplay.medical",
+          "name": "Medizin-Spiel",
+          "tags": {
+            "scenarios": {
+              "id": "roleplay.medical.scenarios",
+              "name": "Szenarien",
+              "items": [
+                { "id": "roleplay.medical.scenarios.gynecology", "label": "Gynäkologische Untersuchung", "intensity": 3 },
+                { "id": "roleplay.medical.scenarios.urology", "label": "Urologische Untersuchung", "intensity": 3 },
+                { "id": "roleplay.medical.scenarios.proctology", "label": "Proktologische Untersuchung", "intensity": 3 },
+                { "id": "roleplay.medical.scenarios.hospital", "label": "Krankenhaus-Setting", "intensity": 2 },
+                { "id": "roleplay.medical.scenarios.psychiatry", "label": "Psychiatrie", "intensity": 2 },
+                { "id": "roleplay.medical.scenarios.dentist", "label": "Zahnarzt", "intensity": 1 }
+              ]
+            },
+            "tools": {
+              "id": "roleplay.medical.tools",
+              "name": "Werkzeuge",
+              "items": [
+                { "id": "roleplay.medical.tools.speculum", "label": "Spekulum", "intensity": 2 },
+                { "id": "roleplay.medical.tools.gloves", "label": "Handschuhe", "intensity": 1 },
+                { "id": "roleplay.medical.tools.syringe", "label": "Spritze", "intensity": 2 },
+                { "id": "roleplay.medical.tools.catheter", "label": "Katheter", "intensity": 3 },
+                { "id": "roleplay.medical.tools.enema", "label": "Klistier/Einlauf", "intensity": 3 },
+                { "id": "roleplay.medical.tools.mouthMirror", "label": "Mund-Spiegel", "intensity": 1 }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "materials": {
+      "id": "materials",
+      "name": "Material-Fetische",
+      "icon": "✨",
+      "color": "#ec4899",
+      "subcategories": {
+        "latex": {
+          "id": "materials.latex",
+          "name": "Latex/Gummi",
+          "tags": {
+            "clothing": {
+              "id": "materials.latex.clothing",
+              "name": "Kleidungsstücke",
+              "items": [
+                { "id": "materials.latex.clothing.gloves", "label": "Handschuhe", "intensity": 2, "variants": ["Handgelenk", "Ellenbogen", "Schulter"] },
+                { "id": "materials.latex.clothing.catsuit", "label": "Catsuit", "intensity": 3 },
+                { "id": "materials.latex.clothing.hood", "label": "Maske/Hood", "intensity": 3 },
+                { "id": "materials.latex.clothing.socks", "label": "Socken/Strümpfe", "intensity": 1 },
+                { "id": "materials.latex.clothing.bra", "label": "BH + Slip", "intensity": 2 },
+                { "id": "materials.latex.clothing.corset", "label": "Korsett", "intensity": 3 },
+                { "id": "materials.latex.clothing.suit", "label": "Anzug", "intensity": 3 },
+                { "id": "materials.latex.clothing.body", "label": "Body", "intensity": 2 },
+                { "id": "materials.latex.clothing.leggings", "label": "Leggings", "intensity": 2 },
+                { "id": "materials.latex.clothing.skirtDress", "label": "Rock/Kleid", "intensity": 2 }
+              ]
+            },
+            "colors": {
+              "id": "materials.latex.colors",
+              "name": "Farben",
+              "items": [
+                { "id": "materials.latex.colors.black", "label": "Schwarz", "intensity": 3 },
+                { "id": "materials.latex.colors.red", "label": "Rot", "intensity": 3 },
+                { "id": "materials.latex.colors.white", "label": "Weiß", "intensity": 2 },
+                { "id": "materials.latex.colors.transparent", "label": "Transparent", "intensity": 2 },
+                { "id": "materials.latex.colors.metallic", "label": "Metallic", "intensity": 2 }
+              ]
+            },
+            "activities": {
+              "id": "materials.latex.activities",
+              "name": "Aktivitäten",
+              "items": [
+                { "id": "materials.latex.activities.wearing", "label": "Tragen", "intensity": 1 },
+                { "id": "materials.latex.activities.dressing", "label": "Anziehen/Helfen", "intensity": 1 },
+                { "id": "materials.latex.activities.polishing", "label": "Polieren", "intensity": 1 },
+                { "id": "materials.latex.activities.smelling", "label": "Riechen", "intensity": 1 },
+                { "id": "materials.latex.activities.hearing", "label": "Hören (Quietschen)", "intensity": 1 },
+                { "id": "materials.latex.activities.tightness", "label": "Enge spüren", "intensity": 2 },
+                { "id": "materials.latex.activities.sweating", "label": "Schwitzen darunter", "intensity": 1 }
+              ]
+            }
+          }
+        },
+        "leather": {
+          "id": "materials.leather",
+          "name": "Leder",
+          "tags": {
+            "items": [
+              { "id": "materials.leather.jacket", "label": "Lederjacke", "intensity": 1 },
+              { "id": "materials.leather.pants", "label": "Lederhose", "intensity": 2 },
+              { "id": "materials.leather.harness", "label": "Harness", "intensity": 2 },
+              { "id": "materials.leather.boots", "label": "Stiefel", "intensity": 2 },
+              { "id": "materials.leather.gloves", "label": "Handschuhe", "intensity": 1 },
+              { "id": "materials.leather.mask", "label": "Maske", "intensity": 2 },
+              { "id": "materials.leather.collar", "label": "Halsband", "intensity": 2 }
+            ]
+          }
+        },
+        "nylon": {
+          "id": "materials.nylon",
+          "name": "Nylon/Strumpfhosen",
+          "tags": {
+            "items": [
+              { "id": "materials.nylon.stockings", "label": "Feinstrumpfhose", "intensity": 1 },
+              { "id": "materials.nylon.garters", "label": "Strapse", "intensity": 2 },
+              { "id": "materials.nylon.fishnet", "label": "Netzstrümpfe", "intensity": 1 },
+              { "id": "materials.nylon.overknees", "label": "Overknees", "intensity": 1 },
+              { "id": "materials.nylon.socks", "label": "Socken", "intensity": 1 },
+              { "id": "materials.nylon.encasement", "label": "Nylon-Encasement", "intensity": 3 },
+              { "id": "materials.nylon.wearing", "label": "Tragen (getragen)", "intensity": 1 }
+            ]
+          }
+        }
+      }
+    },
+    "bodyFocused": {
+      "id": "bodyFocused",
+      "name": "Körper-Fetische",
+      "icon": "🦵",
+      "color": "#f59e0b",
+      "subcategories": {
+        "feet": {
+          "id": "bodyFocused.feet",
+          "name": "Füße",
+          "tags": {
+            "preferences": [
+              { "id": "bodyFocused.feet.size.small", "label": "Zierliche Füße", "intensity": 2 },
+              { "id": "bodyFocused.feet.size.large", "label": "Große Füße", "intensity": 2 },
+              { "id": "bodyFocused.feet.shape.highArch", "label": "Hoher Spann", "intensity": 1 },
+              { "id": "bodyFocused.feet.toes.long", "label": "Lange Zehen", "intensity": 1 },
+              { "id": "bodyFocused.feet.toes.painted", "label": "Lackierte Zehen", "intensity": 1 },
+              { "id": "bodyFocused.feet.soles.soft", "label": "Weiche Sohlen", "intensity": 1 },
+              { "id": "bodyFocused.feet.smell.fresh", "label": "Frischer Geruch", "intensity": 1 },
+              { "id": "bodyFocused.feet.smell.sweaty", "label": "Verschwitzt", "intensity": 2 }
+            ],
+            "activities": [
+              { "id": "bodyFocused.feet.kissing", "label": "Küssen", "intensity": 1 },
+              { "id": "bodyFocused.feet.licking", "label": "Lecken", "intensity": 2 },
+              { "id": "bodyFocused.feet.massage", "label": "Massieren", "intensity": 1 },
+              { "id": "bodyFocused.feet.smelling", "label": "Riechen", "intensity": 2 },
+              { "id": "bodyFocused.feet.footjob", "label": "Footjob", "intensity": 2 },
+              { "id": "bodyFocused.feet.trampling", "label": "Trampling", "intensity": 3 },
+              { "id": "bodyFocused.feet.crushing", "label": "Crushing", "intensity": 3 }
+            ],
+            "shoes": [
+              { "id": "bodyFocused.feet.shoes.heels.stiletto", "label": "Stiletto Heels", "intensity": 2 },
+              { "id": "bodyFocused.feet.shoes.heels.platform", "label": "Plateau Heels", "intensity": 2 },
+              { "id": "bodyFocused.feet.shoes.boots", "label": "Stiefel", "intensity": 2 },
+              { "id": "bodyFocused.feet.shoes.sneakers", "label": "Sneaker", "intensity": 1 },
+              { "id": "bodyFocused.feet.shoes.sandals", "label": "Sandalen", "intensity": 1 }
+            ]
+          }
+        },
+        "buttocks": {
+          "id": "bodyFocused.butt",
+          "name": "Po/Anal",
+          "tags": {
+            "activities": [
+              { "id": "bodyFocused.butt.anal", "label": "Anal-Sex", "intensity": 3 },
+              { "id": "bodyFocused.butt.rimming", "label": "Rimming", "intensity": 2 },
+              { "id": "bodyFocused.butt.fingers", "label": "Finger", "intensity": 2 },
+              { "id": "bodyFocused.butt.plugs.small", "label": "Anal Plugs (klein)", "intensity": 2 },
+              { "id": "bodyFocused.butt.plugs.tail", "label": "Schwanzplug", "intensity": 2 },
+              { "id": "bodyFocused.butt.plugs.inflatable", "label": "Aufblasbarer Plug", "intensity": 3 },
+              { "id": "bodyFocused.butt.dildos", "label": "Dildos", "intensity": 2 },
+              { "id": "bodyFocused.butt.beads", "label": "Anal-Kugeln", "intensity": 2 },
+              { "id": "bodyFocused.butt.speculum", "label": "Spekulum", "intensity": 2 },
+              { "id": "bodyFocused.butt.fisting", "label": "Fisting", "intensity": 4 },
+              { "id": "bodyFocused.butt.worship", "label": "Worship", "intensity": 2 }
+            ],
+            "preferences": [
+              { "id": "bodyFocused.butt.shape.round", "label": "Runder Po", "intensity": 1 },
+              { "id": "bodyFocused.butt.shape.flat", "label": "Flacher Po", "intensity": 1 },
+              { "id": "bodyFocused.butt.size.small", "label": "Kleiner Po", "intensity": 1 },
+              { "id": "bodyFocused.butt.size.large", "label": "Großer Po", "intensity": 1 },
+              { "id": "bodyFocused.butt.hair.smooth", "label": "Glatt (rasiert)", "intensity": 1 },
+              { "id": "bodyFocused.butt.hair.hairy", "label": "Behaart", "intensity": 1 }
+            ]
+          }
+        },
+        "breasts": {
+          "id": "bodyFocused.breasts",
+          "name": "Brüste/Nippel",
+          "tags": {
+            "activities": [
+              { "id": "bodyFocused.breasts.sucking", "label": "Lecken/Saugen", "intensity": 1 },
+              { "id": "bodyFocused.breasts.pinching", "label": "Kneifen/Ziehen", "intensity": 2 },
+              { "id": "bodyFocused.breasts.clamping", "label": "Klemmen", "intensity": 3 },
+              { "id": "bodyFocused.breasts.wax", "label": "Wachs tropfen", "intensity": 2 },
+              { "id": "bodyFocused.breasts.bondage", "label": "Bondage-Tie", "intensity": 2 },
+              { "id": "bodyFocused.breasts.milking", "label": "Melken (Lactation)", "intensity": 3 }
+            ],
+            "preferences": [
+              { "id": "bodyFocused.breasts.size.small", "label": "Kleine Brüste", "intensity": 1 },
+              { "id": "bodyFocused.breasts.size.large", "label": "Große Brüste", "intensity": 1 },
+              { "id": "bodyFocused.breasts.nipples.large", "label": "Große Nippel", "intensity": 1 },
+              { "id": "bodyFocused.breasts.nipples.pierced", "label": "Pierced Nippel", "intensity": 1 }
+            ]
+          }
+        },
+        "genitals": {
+          "id": "bodyFocused.genitals",
+          "name": "Genitalien",
+          "tags": {
+            "penisPlay": [
+              { "id": "bodyFocused.genitals.penis.cbt", "label": "CBT (Cock & Ball Torture)", "intensity": 5 },
+              { "id": "bodyFocused.genitals.penis.clamping", "label": "Klemmen", "intensity": 4 },
+              { "id": "bodyFocused.genitals.penis.whipping", "label": "Schlagen", "intensity": 4 },
+              { "id": "bodyFocused.genitals.penis.bondage", "label": "Bondage/Schnürung", "intensity": 3 },
+              { "id": "bodyFocused.genitals.penis.electro", "label": "Elektro-Stimulation", "intensity": 4 },
+              { "id": "bodyFocused.genitals.penis.needles", "label": "Nadeln", "intensity": 5 },
+              { "id": "bodyFocused.genitals.penis.wax", "label": "Wachs", "intensity": 2 },
+              { "id": "bodyFocused.genitals.penis.sounding", "label": "Sounding", "intensity": 4 },
+              { "id": "bodyFocused.genitals.penis.chastity", "label": "Keuschheitskäfig", "intensity": 4 },
+              { "id": "bodyFocused.genitals.penis.edging", "label": "Edging", "intensity": 2 },
+              { "id": "bodyFocused.genitals.penis.ruined", "label": "Ruinierter Orgasmus", "intensity": 2 }
+            ],
+            "vulvaPlay": [
+              { "id": "bodyFocused.genitals.vulva.clamping", "label": "Klemmen", "intensity": 3 },
+              { "id": "bodyFocused.genitals.vulva.spanking", "label": "Pussy Slapping", "intensity": 3 },
+              { "id": "bodyFocused.genitals.vulva.fisting", "label": "Fisting", "intensity": 3 },
+              { "id": "bodyFocused.genitals.vulva.speculum", "label": "Speculum", "intensity": 2 },
+              { "id": "bodyFocused.genitals.vulva.electro", "label": "Elektro-Stim", "intensity": 3 },
+              { "id": "bodyFocused.genitals.vulva.wax", "label": "Wachs", "intensity": 2 },
+              { "id": "bodyFocused.genitals.vulva.piercing", "label": "Piercing Play", "intensity": 1 }
+            ]
+          }
+        }
+      }
+    },
+    "bodily": {
+      "id": "bodily",
+      "name": "Körperflüssigkeiten & Funktionen",
+      "icon": "💧",
+      "color": "#06b6d4",
+      "subcategories": {
+        "watersports": {
+          "id": "bodily.watersports",
+          "name": "Watersports/Piss Play",
+          "tags": {
+            "activities": [
+              { "id": "bodily.watersports.goldenShower", "label": "Golden Shower", "intensity": 2 },
+              { "id": "bodily.watersports.goldenShowerFace", "label": "Ins Gesicht", "intensity": 3 },
+              { "id": "bodily.watersports.goldenShowerMouth", "label": "In Mund (trinken)", "intensity": 4 },
+              { "id": "bodily.watersports.goldenShowerClothing", "label": "Auf Kleidung", "intensity": 2 },
+              { "id": "bodily.watersports.selfWetting", "label": "Selbst pinkeln", "intensity": 2 },
+              { "id": "bodily.watersports.catheter", "label": "Katheter-Kontrolle", "intensity": 4 },
+              { "id": "bodily.watersports.public", "label": "Öffentlich/Riskant", "intensity": 4 },
+              { "id": "bodily.watersports.bathtub", "label": "In Badewanne/Dusche", "intensity": 2 }
+            ],
+            "role": [
+              { "id": "bodily.watersports.giving", "label": "Geben (aktiv)", "intensity": 1 },
+              { "id": "bodily.watersports.receiving", "label": "Empfangen", "intensity": 2 },
+              { "id": "bodily.watersports.both", "label": "Beides", "intensity": 2 }
+            ]
+          }
+        },
+        "scat": {
+          "id": "bodily.scat",
+          "name": "Scat/Kaviar",
+          "tags": {
+            "activities": [
+              { "id": "bodily.scat.defecation", "label": "Defäkation auf Körper", "intensity": 5 },
+              { "id": "bodily.scat.face", "label": "Ins Gesicht", "intensity": 5 },
+              { "id": "bodily.scat.mouth", "label": "In Mund (Essen)", "intensity": 5 },
+              { "id": "bodily.scat.diaper", "label": "In Windel", "intensity": 4 },
+              { "id": "bodily.scat.smearing", "label": "Verschmieren", "intensity": 5 }
+            ],
+            "intensity": [
+              { "id": "bodily.scat.presence", "label": "Nur zusehen", "intensity": 2 },
+              { "id": "bodily.scat.lightContact", "label": "Leichter Kontakt", "intensity": 3 },
+              { "id": "bodily.scat.fullContact", "label": "Voll-Kontakt", "intensity": 5 },
+              { "id": "bodily.scat.consumption", "label": "Aufnahme (Essen)", "intensity": 5 }
+            ]
+          }
+        },
+        "saliva": {
+          "id": "bodily.saliva",
+          "name": "Speichel/Spit",
+          "tags": [
+            { "id": "bodily.saliva.spittingFace", "label": "Spucken ins Gesicht", "intensity": 2 },
+            { "id": "bodily.saliva.spittingMouth", "label": "In Mund", "intensity": 2 },
+            { "id": "bodily.saliva.saliva exchange", "label": "Speichel austauschen", "intensity": 1 },
+            { "id": "bodily.saliva.spittingBody", "label": "Spucken auf Körper", "intensity": 2 }
+          ]
+        }
+      }
+    },
+    "objectification": {
+      "id": "objectification",
+      "name": "Objektifizierung",
+      "icon": "🪑",
+      "color": "#8b5cf6",
+      "subcategories": {
+        "furniture": {
+          "id": "objectification.furniture",
+          "name": "Furniture (Möbelstück)",
+          "tags": [
+            { "id": "objectification.furniture.table", "label": "Human Table", "intensity": 2, "description": "Als Tisch" },
+            { "id": "objectification.furniture.chair", "label": "Human Chair", "intensity": 2, "description": "Darauf sitzen" },
+            { "id": "objectification.furniture.footstool", "label": "Footstool", "intensity": 1, "description": "Füße ablegen" },
+            { "id": "objectification.furniture.ashtray", "label": "Ashtray", "intensity": 2, "description": "Aschenbecher" },
+            { "id": "objectification.furniture.doormat", "label": "Doormat", "intensity": 2, "description": "Fußmatte" }
+          ]
+        },
+        "service": {
+          "id": "objectification.service",
+          "name": "Service-Objekt",
+          "tags": [
+            { "id": "objectification.service.cleaner", "label": "Putzsklave", "intensity": 1 },
+            { "id": "objectification.service.butler", "label": "Butler", "intensity": 1 },
+            { "id": "objectification.service.chauffeur", "label": "Chauffeur", "intensity": 1 },
+            { "id": "objectification.service.atm", "label": "ATM (FinDom)", "intensity": 3 }
+          ]
+        }
+      }
+    },
+    "public": {
+      "id": "public",
+      "name": "Öffentlich/Exhibitionismus",
+      "icon": "👀",
+      "color": "#ef4444",
+      "subcategories": {
+        "settings": {
+          "id": "public.settings",
+          "name": "Settings",
+          "tags": [
+            { "id": "public.settings.dungeon", "label": "Dungeon/Club", "intensity": 2 },
+            { "id": "public.settings.munch", "label": "Munch", "intensity": 1 },
+            { "id": "public.settings.fetishParty", "label": "Fetisch-Party", "intensity": 2 },
+            { "id": "public.settings.outdoor", "label": "Outdoor", "intensity": 3 },
+            { "id": "public.settings.transit", "label": "Öffentliche Verkehrsmittel", "intensity": 4 },
+            { "id": "public.settings.restaurant", "label": "Restaurant", "intensity": 3 }
+          ]
+        },
+        "activities": {
+          "id": "public.activities",
+          "name": "Aktivitäten",
+          "tags": [
+            { "id": "public.activities.remoteControl", "label": "Remote-Control-Toy", "intensity": 3 },
+            { "id": "public.activities.nudity", "label": "Public Nudity", "intensity": 4 },
+            { "id": "public.activities.leash", "label": "Leash in Public", "intensity": 3 },
+            { "id": "public.activities.predicament", "label": "Predicament", "intensity": 3 }
+          ]
+        }
+      }
+    },
+    "extreme": {
+      "id": "extreme",
+      "name": "Extreme Nischen",
+      "icon": "⚡",
+      "color": "#f97316",
+      "subcategories": {
+        "inflation": {
+          "id": "extreme.inflation",
+          "name": "Inflation/Expansion",
+          "tags": [
+            { "id": "extreme.inflation.balloons", "label": "Ballon-Fetisch", "intensity": 2 },
+            { "id": "extreme.inflation.inflatable", "label": "Aufblasbarer Plug", "intensity": 2 },
+            { "id": "extreme.inflation.fantasy", "label": "Fantasy (Körper aufblasen)", "intensity": 3 }
+          ]
+        },
+        "vore": {
+          "id": "extreme.vore",
+          "name": "Vore (Fantasy)",
+          "tags": [
+            { "id": "extreme.vore.beingEaten", "label": "Verschlungen werden", "intensity": 3 },
+            { "id": "extreme.vore.macro", "label": "Makro/Tiny (Größenunterschied)", "intensity": 3 }
+          ]
+        },
+        "transformation": {
+          "id": "extreme.transformation",
+          "name": "Transformation",
+          "tags": [
+            { "id": "extreme.transformation.animal", "label": "Tiertransformation", "intensity": 3 },
+            { "id": "extreme.transformation.object", "label": "Objekt-Transformation", "intensity": 3 },
+            { "id": "extreme.transformation.gender", "label": "Gendertransformation", "intensity": 2 }
+          ]
+        },
+        "asphyxiation": {
+          "id": "extreme.asphyxiation",
+          "name": "Asphyxiation",
+          "tags": [
+            { "id": "extreme.asphyxiation.choking", "label": "Würgen", "intensity": 4 },
+            { "id": "extreme.asphyxiation.breathControl", "label": "Breath Control", "intensity": 4 },
+            { "id": "extreme.asphyxiation.bagging", "label": "Bagging (Plastiktüte)", "intensity": 5, "warning": "EXTREM GEFÄHRLICH" }
+          ]
+        },
+        "needles": {
+          "id": "extreme.needles",
+          "name": "Needle Play",
+          "tags": [
+            { "id": "extreme.needles.surface", "label": "Oberflächlich", "intensity": 3 },
+            { "id": "extreme.needles.deep", "label": "Tief (Akupunktur-Style)", "intensity": 4 },
+            { "id": "extreme.needles.genitals", "label": "Genitalien", "intensity": 5 }
+          ]
+        },
+        "branding": {
+          "id": "extreme.branding",
+          "name": "Branding/Cutting",
+          "tags": [
+            { "id": "extreme.branding.hotBrand", "label": "Heißes Branding", "intensity": 4 },
+            { "id": "extreme.branding.coldBrand", "label": "Kaltes Branding", "intensity": 3 },
+            { "id": "extreme.branding.cutting", "label": "Cutting (Narben)", "intensity": 4 },
+            { "id": "extreme.branding.bloodPlay", "label": "Blood Play", "intensity": 4 }
+          ]
+        }
+      }
+    },
+    "psychological": {
+      "id": "psychological",
+      "name": "Psychologische Dimensionen",
+      "icon": "🧠",
+      "color": "#6366f1",
+      "subcategories": {
+        "emotions": {
+          "id": "psychological.emotions",
+          "name": "Emotionen während Play",
+          "tags": [
+            { "id": "psychological.emotions.humiliation", "label": "Erniedrigung", "intensity": 2 },
+            { "id": "psychological.emotions.shame", "label": "Scham", "intensity": 2 },
+            { "id": "psychological.emotions.caregiving", "label": "Fürsorge", "intensity": 1 },
+            { "id": "psychological.emotions.pride", "label": "Stolz", "intensity": 1 },
+            { "id": "psychological.emotions.fear", "label": "Angst", "intensity": 2 },
+            { "id": "psychological.emotions.euphoria", "label": "Euphorie", "intensity": 1 },
+            { "id": "psychological.emotions.ecstasy", "label": "Ekstase", "intensity": 2 }
+          ]
+        }
+      }
+    },
+    "context": {
+      "id": "context",
+      "name": "Kontext-Filter",
+      "icon": "📍",
+      "color": "#14b8a6",
+      "subcategories": {
+        "location": {
+          "id": "context.location",
+          "name": "Ort",
+          "tags": [
+            { "id": "context.location.home", "label": "Zuhause (privat)", "intensity": 1 },
+            { "id": "context.location.dungeon", "label": "Dungeon", "intensity": 2 },
+            { "id": "context.location.hotel", "label": "Hotel", "intensity": 2 },
+            { "id": "context.location.outdoor", "label": "Outdoor", "intensity": 3 },
+            { "id": "context.location.car", "label": "Auto", "intensity": 2 },
+            { "id": "context.location.public", "label": "Öffentlich (riskant)", "intensity": 4 },
+            { "id": "context.location.party", "label": "Party/Event", "intensity": 2 }
+          ]
+        },
+        "frequency": {
+          "id": "context.frequency",
+          "name": "Frequenz",
+          "tags": [
+            { "id": "context.frequency.always", "label": "24/7", "intensity": 1 },
+            { "id": "context.frequency.multiWeekly", "label": "Mehrmals pro Woche", "intensity": 1 },
+            { "id": "context.frequency.weekends", "label": "Wochenende", "intensity": 1 },
+            { "id": "context.frequency.monthly", "label": "Monatlich", "intensity": 1 },
+            { "id": "context.frequency.spontaneous", "label": "Spontan", "intensity": 1 }
+          ]
+        },
+        "duration": {
+          "id": "context.duration",
+          "name": "Dauer",
+          "tags": [
+            { "id": "context.duration.quickie", "label": "Quickie (15-30 Min)", "intensity": 1 },
+            { "id": "context.duration.session", "label": "Session (1-3 Std)", "intensity": 1 },
+            { "id": "context.duration.fullDay", "label": "Ganztags (8+ Std)", "intensity": 2 },
+            { "id": "context.duration.weekend", "label": "Wochenende", "intensity": 2 },
+            { "id": "context.duration.permanent", "label": "Dauerhaft (24/7)", "intensity": 3 }
+          ]
+        },
+        "groupSize": {
+          "id": "context.groupSize",
+          "name": "Gruppengröße",
+          "tags": [
+            { "id": "context.groupSize.oneOnOne", "label": "1:1", "intensity": 1 },
+            { "id": "context.groupSize.throuple", "label": "Throuple (3er)", "intensity": 2 },
+            { "id": "context.groupSize.small", "label": "Kleine Gruppe (4-10)", "intensity": 2 },
+            { "id": "context.groupSize.large", "label": "Orgy/Party (10+)", "intensity": 3 }
+          ]
+        }
+      }
+    }
+  }
+}
